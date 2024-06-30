@@ -196,3 +196,73 @@ print("Data extraction complete. Files saved to 'parties_data.xlsx' and 'detaile
 ## Conclusion
 
 This project demonstrates web scraping techniques to extract structured data from a government website and save it in a user-friendly format (Excel). The project involved handling various challenges, such as relative URLs and extracting information from unstructured text, showcasing practical problem-solving skills.
+
+# Lok Sabha Parliamentary Constituency Results Analysis
+
+## Introduction
+
+This project analyzes the results of the Lok Sabha parliamentary constituency elections. The analysis is performed using various data visualization techniques implemented in a Jupyter notebook. Additionally, a Power BI dashboard is created to provide an interactive analysis of the election results.
+
+## Dataset Details
+
+The dataset contains the results of 543 parliamentary constituencies. Each entry includes details such as the state, constituency, winning candidate, total votes, margin, party, and alliance.
+
+- *Columns*:
+  - S.No: Serial number of the entry
+  - State: State in which the constituency is located
+  - Parliament Constituency: Name of the parliamentary constituency
+  - Winning Candidate: Name of the winning candidate
+  - Total Votes: Total votes received by the winning candidate
+  - Margin: Margin of victory
+  - Party: Political party of the winning candidate
+  - Alliance: Political alliance of the winning candidate's party
+
+## Steps in the Analysis
+
+1. **Importing Libraries**:
+    - Importing necessary libraries such as pandas, matplotlib, seaborn, etc.
+
+2. **Loading Data**:
+    - Loading the election results data into pandas DataFrames for processing and analysis.
+
+3. **Data Cleaning and Preparation**:
+    - Handling missing values and performing necessary data transformations.
+
+4. **Exploratory Data Analysis (EDA)**:
+    - Visualizing the distribution of seats won by different parties.
+    - Analyzing vote share percentages.
+    - State-wise analysis of election results.
+    - Mapping the geographical distribution of election results.
+
+5. **Results Visualization**:
+    - Bar charts, pie charts, and maps to illustrate the findings.
+    - Interactive visualizations to explore the data in detail.
+
+## Power BI Dashboard
+
+The Power BI dashboard provides an interactive analysis of the 2024 Lok Sabha election results. It includes various visualizations that depict the election results, such as the number of constituencies won by each party, vote share percentages, and state-wise seat distribution. The dashboard offers filters to view data based on different states and political alliances.
+
+### Key Visualizations
+
+1. **Total Number of Constituencies Won by Party**:
+   - A bar chart showing the number of constituencies won by each party.
+   - The Bharatiya Janata Party (BJP) leads with 240 constituencies, followed by the Indian National Congress (INC) with 99 constituencies.
+
+2. **Vote-wise Share for Each Party**:
+   - A pie chart representing the vote share percentage of each party.
+   - The BJP has the highest vote share at 44.2%, followed by the INC at 18.23%.
+
+3. **State-wise Seats**:
+   - A pie chart displaying the distribution of seats won by different parties across various states.
+
+4. **Alliance View**:
+   - A donut chart showing the overall seat distribution between major alliances (INC and NDA).
+   - The NDA has a majority with 303 seats (55.8%), while the INC has 240 seats (44.2%).
+
+5. **Geographical Distribution**:
+   - A map visualization highlighting the geographical spread of constituencies won by different parties across India.
+
+
+## Conclusion
+
+This project provides insights into the 2024 Lok Sabha election results through data visualization. The visualizations help in understanding the electoral performance of different parties across various states and constituencies.
